@@ -20,7 +20,7 @@ app.use(cors());
 
 // khởi tạo server bằng Express
 // port: địa chỉ định danh server
-app.listen(2000);
+app.listen(8080);
 
 const rootRoute = require('./routes/rootRoute');
 app.use("/api",rootRoute)
